@@ -32,7 +32,7 @@ public:
 private:
     const std::string server = "tcp://127.0.0.1:3306";
     const std::string username = "root";
-    const std::string password = "D3lph12020";
+    const std::string password = "password";
 
     sql::Driver* driver;
     sql::Connection* con;

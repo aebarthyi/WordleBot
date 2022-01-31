@@ -4,7 +4,7 @@
 #include"Database.h"
 
 int main() {
-	dpp::cluster bot("OTM2MDIyNjUwMTQ3NDY3MzM2.YfHJBg.ncO3It7XeHdaJGx8UOG5JCd0dKI");
+	dpp::cluster bot("token");
 	Database data;
 
 	bot.on_ready([&bot](const dpp::ready_t& event) {
